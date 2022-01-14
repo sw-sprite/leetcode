@@ -72,7 +72,8 @@ class Solution:
         l1: Optional[ListNode], 
         l2: Optional[ListNode]
     ) -> Optional[ListNode]:
-    
+        # slightly cleaner, not faster
+        
         head = ListNode(0)
         cur_node = head
         carry_over = 0
